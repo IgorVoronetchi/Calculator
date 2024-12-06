@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./styles.css">
+   
+</head>
+<body>
+    <div class="calculator">
+        <h1>Calculator Simplu</h1>
+        <input type="number" id="num1" placeholder="Primul număr">
+        <br>
+        <input type="number" id="num2" placeholder="Al doilea număr">
+        <br>
+        <button onclick="calculate('add')">Adunare</button>
+        <button onclick="calculate('subtract')">Scădere</button>
+        <button onclick="calculate('multiply')">Înmulțire</button>
+        <button onclick="calculate('divide')">Împărțire</button>
+        <div class="result" id="result">Rezultatul va apărea aici</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
